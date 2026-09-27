@@ -1,0 +1,24 @@
+# Ambiente virtual
+k-means/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais comuns
+venv/
+.venv/
+env/
+ENV/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
