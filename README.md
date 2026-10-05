@@ -32,3 +32,8 @@ Quando não há rótulos reais, o Coeficiente de Silhueta avalia o próprio agru
 - Desvantagem (segundo a doc do scikit-learn): tende a ser maior para clusters convexos do que para clusters baseados em densidade, como os do DBSCAN.
 
 Uso para escolher k (prática, fora da documentação): rodar o K-means para vários valores de k (a partir de 2) e comparar o score médio de cada um. No Iris, k=2 obteve ~0,68 e k=3 ~0,55.
+
+## Outras formas de fazer
+Existem outras heurísticas pra resolver o mesmo problema (Elkan, Hamerly, MiniBatch), mas Lloyd continua sendo a base histórica e conceitual — é literalmente esse loop de "atribuir → recalcular centro → repetir" que você já escreveu em pseudocódigo antes nessa conversa.
+
+
